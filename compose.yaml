@@ -1,0 +1,7 @@
+﻿services:
+  dbc.git.master.app:
+    image: dbc.git.master.app
+    build:
+      context: .
+      dockerfile: DBC.Git.Master.App/Dockerfile
+
