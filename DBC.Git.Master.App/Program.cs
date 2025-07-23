@@ -9,7 +9,6 @@ namespace DBC.Git.Master.App
     {
         static GitHubService? githubService;
         static TGui.Label? githubStatusLabel;
-
         static async Task Main(string[] args)
         {
             Logger.Log("Starting GitMaster application...");
